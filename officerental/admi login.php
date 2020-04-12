@@ -14,7 +14,7 @@
 
 <?php
 
-		$con = mysqli_connect("localhost","root","123456","Data base name");
+		$con = mysqli_connect("localhost","root","","Data base name");
 		if (!$con) {
 				die('Could not connect: ' . mysql_error());
 			  }
